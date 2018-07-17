@@ -1,0 +1,19 @@
+{
+  "name": "playonparticles",
+  "version": "1.0.0",
+  "description": "A play on particles.js by VincentGarreau, trying to get some different functionality out of it and this is a perfect platform to build off of",
+  "main": "particles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSandersius/PlayOnParticles.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JSandersius/PlayOnParticles.js/issues"
+  },
+  "homepage": "https://github.com/JSandersius/PlayOnParticles.js#readme"
+}
