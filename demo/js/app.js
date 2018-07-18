@@ -16,7 +16,7 @@ particlesJS('particles-js',
     {
         "particles": {
             "number": {
-                "value": 80,
+                "value": 67,
                 "density": {
                     "enable": true,
                     "value_area": 800
@@ -32,7 +32,7 @@ particlesJS('particles-js',
                     "color": "#000000"
                 },
                 "polygon": {
-                    "nb_sides": 5
+                    "nb_sides": 12
                 },
                 "image": {
                     "src": "img/github.svg",
@@ -41,43 +41,44 @@ particlesJS('particles-js',
                 }
             },
             "opacity": {
-                "value": 0.5,
-                "random": false,
+                "value": 0.49705773886831206,
+                "random": true,
                 "anim": {
                     "enable": false,
-                    "speed": 1,
-                    "opacity_min": 0.1,
+                    "speed": 4.3852169464272635,
+                    "opacity_min": 0.43852169464272633,
                     "sync": false
                 }
             },
             "size": {
-                "value": 5,
+                "value": 0,
                 "random": true,
                 "anim": {
                     "enable": false,
                     "speed": 40,
-                    "size_min": 0.1,
+                    "size_min": 0,
                     "sync": false
                 }
             },
             "line_linked": {
                 "enable": true,
-                "distance": 150,
+                "distance": 256.54592973848366,
                 "color": "#ffffff",
-                "opacity": 0.4,
-                "width": 1
+                "opacity": 0.32068241217310456,
+                "width": 1.4430708547789706
             },
             "move": {
                 "enable": true,
-                "speed": 6,
+                "speed": 3,
                 "direction": "none",
-                "random": false,
+                "random": true,
                 "straight": false,
-                "out_mode": "out",
+                "out_mode": "bounce",
+                "bounce": false,
                 "attract": {
                     "enable": false,
-                    "rotateX": 600,
-                    "rotateY": 1200
+                    "rotateX": 0,
+                    "rotateY": 0
                 }
             }
         },
@@ -85,7 +86,7 @@ particlesJS('particles-js',
             "detect_on": "canvas",
             "events": {
                 "onhover": {
-                    "enable": true,
+                    "enable": false,
                     "mode": "repulse"
                 },
                 "onclick": {
@@ -96,20 +97,21 @@ particlesJS('particles-js',
             },
             "modes": {
                 "grab": {
-                    "distance": 400,
+                    "distance": 0,
                     "line_linked": {
-                        "opacity": 1
+                        "opacity": 0.4442177654201152
                     }
                 },
                 "bubble": {
-                    "distance": 400,
+                    "distance": 414.159378273686,
                     "size": 40,
-                    "duration": 2,
-                    "opacity": 8,
+                    "duration": 0.08120772123013452,
+                    "opacity": 0,
                     "speed": 3
                 },
                 "repulse": {
-                    "distance": 200
+                    "distance": 381.6762897816322,
+                    "duration": 0.4
                 },
                 "push": {
                     "particles_nb": 4
@@ -119,15 +121,7 @@ particlesJS('particles-js',
                 }
             }
         },
-        "retina_detect": true,
-        "config_demo": {
-            "hide_card": false,
-            "background_color": "#b61924",
-            "background_image": "",
-            "background_position": "50% 50%",
-            "background_repeat": "no-repeat",
-            "background_size": "cover"
-        }
+        "retina_detect": true
     }
 
 );
