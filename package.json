@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JSandersius/PlayOnParticles.js/issues"
   },
-  "homepage": "https://github.com/JSandersius/PlayOnParticles.js#readme"
+  "homepage": "https://github.com/JSandersius/PlayOnParticles.js#readme",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  }
 }
